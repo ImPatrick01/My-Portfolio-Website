@@ -1,0 +1,110 @@
+body {
+    
+        font-family: Arial, sans-serif;
+        background-image: url("img.logo.jpg"); /* Path to your background image */
+        background-size: cover; /* Ensure the image covers the entire background */
+        color: #fff; /* White text color */
+        margin: 0;
+        padding: 0;
+    
+    
+}
+
+header {
+    
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+#about {
+    border-top-style:  outset;
+    border-bottom-style: outset;
+    border-width: 15px;
+    border-color: rgb(16, 177, 206);
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: rgb(16, 235, 27);
+   
+    
+}
+
+    
+    
+
+h7 {
+    color: gold;
+    border-bottom-style: outset;
+    border-width: 15px;
+    border-color: rgb(16, 177, 206);
+    border-radius: 20px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: "press Start 2P", sans-serif;
+    
+    
+    
+}
+p {
+    font-style: inherit;
+    font-size: 20px;
+    color: rgb(244, 255, 255);
+}
+
+/*#portfolio {
+    
+}*/
+
+.project {
+    margin: 20px;
+    padding: 10px;
+    background-color: #28475e; /* Slightly lighter gray project background */
+    border: 1px solid #fff; /* White border for projects */
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 24px;
+}
+
+#contact {
+    /*background-color: #2e2e2e; /* Slightly lighter gray background for the "Contact" section */
+    border-top-style: ridge;
+    /*border-bottom-style: outset;*/
+    border-width: 15px;
+    border-color: rgb(16, 177, 206);
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    
+}
